@@ -31,7 +31,7 @@ function App() {
     const TWO_SEC = 2000;
     const timeout = setInterval(() => {
       window.location.reload();
-    }, TWO_SEC)
+    }, TWO_SEC);
     return () => clearInterval(timeout);
   }
 
